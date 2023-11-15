@@ -4,13 +4,14 @@ import System.Info (os)
 import System.Process (system)
 import System.IO
 
---vivo: \128104
---zumbi: \129503
+--alive: \128104
+--zombie: \129503
 
 --global variables
-alive = 'A'
+alive = 'a'
 dead = ' '
-zombie = 'Z'
+zombie = 'z'
+delay = 1000000
 
 --EXTRA: FUNCTIONS TO CLEAR THE TERMINAL AFTER UPDATING THE GRID
 
@@ -25,15 +26,15 @@ isWindowsOS = os == "mingw32"
 ------------------------------------------------------------------
 
 --fill row with random values from a predefined list
-fillRow :: Int -> StdGen -> String
+fillRow :: Int -> Int -> String
 fillRow numItems gen = [values !! i | i <- randomIndexes]
-    where values = [alive, dead, zombie] 
-          randomIndexes = (take numItems $ randomRs (0, 2) gen) 
+    where values = [alive, dead] 
+          randomIndexes = (take numItems $ randomRs (0, (length values - 1)) (mkStdGen (gen))) 
 
 --fill a matrix with random values from a predefined list
 fillMatrix :: Int -> Int -> StdGen -> [String]
 fillMatrix numRows numColumns gen = [ fillRow numColumns (generators !! j) | j <- [0 .. (numRows - 1)] ]
-    where generators = take numRows $ iterate (snd . next) gen -- provavelmente o next que está causando problema no random
+    where generators = (take numRows $ randoms gen)
 
 --turn a matrix of strings into a single String with a breakline between rows
 toLine :: [String] -> String
@@ -87,13 +88,31 @@ updateMatrix currentMatrix = [ [updateCell (currentMatrix !! i !! j) (getNeighbo
     where rowsIndexes = [0 .. (length currentMatrix - 1)]
           columnsIndexes = [0 .. (length (currentMatrix !! 0) - 1)]
 
-iterate' :: [String] -> Int -> [String]
-iterate' 0 matrix = 
-iterate' numIterations matrix = 
+runGame :: [String] -> Int -> Int -> IO ()
+runGame matrix iterations currentIteration
+    | matrix == newMatrix || currentIteration == iterations = do
+        showNewMatrix matrix
+        putStrLn ("System stabled after " ++ (show currentIteration) ++ " iterations!")
+    | otherwise = do
+        showNewMatrix newMatrix
+        runGame newMatrix iterations (currentIteration + 1)
+    where newMatrix = updateMatrix matrix
+
+--
+--showNewMatrix :: [String] -> IO ()
+showNewMatrix matrix = do
+    --clean terminal
+     clearCommand <- getClearCommand
+     _ <- system clearCommand
+     --print new matrix
+     printString $ toLine matrix
+     --wait before print the next matrix
+     threadDelay delay
+     
 
 main = do
     clearCommand <- getClearCommand
-    _ <- systemClearCommand
+    _ <- system clearCommand
 
     putStrLn "Enter the number of rows of the matrix: "
     numRows <- getLine
@@ -108,29 +127,9 @@ main = do
     let iterations = (read numIterations :: Int)
     
     gen <- newStdGen
-    
-    _ <- system clearCommand
-    threadDelay 700000
+
     let grid = fillMatrix rows cols gen
-    printString $ toLine grid
+    
+    runGame grid iterations 0
 
-    threadDelay 700000
-    clearCommand <- getClearCommand
-    _ <- system clearCommand
-    let grid2 = updateMatrix grid
-    printString $ toLine grid2
-
-    threadDelay 700000
-    clearCommand <- getClearCommand
-    _ <- system clearCommand
-    let grid3 = updateMatrix grid2
-    printString $ toLine grid3
-
-    threadDelay 700000
-    clearCommand <- getClearCommand
-    _ <- system clearCommand
-    let grid4 = updateMatrix grid3
-    printString $ toLine grid4
-
-    -- TODO: clear terminal
 
