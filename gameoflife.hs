@@ -11,7 +11,7 @@ import System.IO
 alive = 'a'
 dead = ' '
 zombie = 'z'
-delay = 1000000
+delay = 50000
 
 --EXTRA: FUNCTIONS TO CLEAR THE TERMINAL AFTER UPDATING THE GRID
 
@@ -39,10 +39,6 @@ fillMatrix numRows numColumns gen = [ fillRow numColumns (generators !! j) | j <
 --turn a matrix of strings into a single String with a breakline between rows
 toLine :: [String] -> String
 toLine matrix = concat [ matrix !! i ++ "\n" | i <- [0 .. (length matrix - 1)]]
-
---print matrix
-printString :: String -> IO ()
-printString str = putStr str
 
 --get all the neighbors of a cell
 --i and j are the line and column of a cell
@@ -90,9 +86,15 @@ updateMatrix currentMatrix = [ [updateCell (currentMatrix !! i !! j) (getNeighbo
 
 runGame :: [String] -> Int -> Int -> IO ()
 runGame matrix iterations currentIteration
+    | currentIteration == 0 = do
+        showNewMatrix matrix
+        runGame newMatrix iterations (currentIteration + 1)
     | matrix == newMatrix || currentIteration == iterations = do
         showNewMatrix matrix
         putStrLn ("System stabled after " ++ (show currentIteration) ++ " iterations!")
+    | matrix /= newMatrix && currentIteration == iterations = do
+        showNewMatrix matrix
+        putStrLn ("System stopped after " ++ (show currentIteration) ++ " iterations!")
     | otherwise = do
         showNewMatrix newMatrix
         runGame newMatrix iterations (currentIteration + 1)
@@ -105,7 +107,8 @@ showNewMatrix matrix = do
      clearCommand <- getClearCommand
      _ <- system clearCommand
      --print new matrix
-     printString $ toLine matrix
+     putStr $ toLine matrix
+     hFlush stdout
      --wait before print the next matrix
      threadDelay delay
      
