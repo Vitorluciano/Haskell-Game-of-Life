@@ -1,0 +1,35 @@
+ a aa   a a   a a    aaaa aa  a a     aa aa  aa aa    aaaa aa  aaa   a  a a aaaaa  aaaaaa aaa  aa   aaa  a aa aa aa aa aa   aa aaaa aa  aaaa    aaaa a
+ a a   aaa a  aaaaaa aa a aa aaaa     aa  a   aa aaaa  a aa aa a aaa a     aa  a  aa aa a aa  a aaaa a aa aa    a  a   aa  aa   a   aa  aaaaaaa a a   
+a   a a  aaa a  aaa a a   a a        aaaaaa a  aaaaaaa aa aaaa aa a   a  aaaaa aaa aa  a  aa aa aaa a     aa a   a  a aa    aa   aaaa  aaa  a   a     
+aaa   aa aaaa a  a a a a    a  aaa a  a aaa a aaa     a aaa  a aaaa aaa aa a   aaa   a  aaaa a  aa    aa     a   a a a aa   aaa   aa    a a aa    aaaa
+a a  a aaaaaa aaaaa  a a  aaaaa   aa   aa   a a  aaaa  a     a a  a  aaa  aa aa  aa   a     aa   a aaa  aaa    aa a   aa aa        aa a aaaa  aa  a a 
+  aa aa aa  a  a a aa aaaaaa aaaa   a  a  a  a a a a  aa a aaa aa  aaaa aaa a a  a a aaaaaa  aa   aa aaa aa  a    aa   aa  aa   a aa a aaa  a  a     a
+aa aa aa   a aa   a   aa aaaaa aa  aa  aaa   aaa a     aaa    aa   a aa   aa     aaaaaa  a      aaa  a aa aa aaa  aaa     aaaa      a a aaa a    a  aa
+a aa   aaa a  aa   a  a  a a  a aaaa  aa a      a a aaa       aa  a    aaaa aaaaaaaa a a  aa a        aa a a     a a      a aa aaaaaa aaaa  a a  a a  
+ a aaa aaaaa a   a  aa aa aa  a aa aa  a a  aaa  a a  a   a a  a aaa a  aa aa   a aa a a a    aaa aa a aa  aaaa aa aa a     aa  aaa a  a      aaaaaaaa
+a aaaa    a aa a      a   a a  aaa      a a a aaaa    a    a a  aa   aa   aaaa    aaaa    aa a   aaa a   a  a aa a a a aaaaaa   aa a aa    aa aa   a  
+ a a a  a    a     aaa aa         aaa  a    aaaa  aaa a   a    a aa a aaa a   a  aaa  aa   a   a  aaaaa aaaa  aa   a   aaaa a  a aa a a a aaaaa a   aa
+   aaaaa       aa a a     a aa  a   aa  a  a   aa a  a a    aaa  a   aaa aa aa      a   aaaaa  aaa  aa a   aaa      aaaaaaaa    a a     aaaaa a  aaa a
+aaa    aaaaa        aa a aa      aaaa   a a aaaaa aaa a   a aa a     aa a aa  aa a  a     a       a  aa    a   a aaaa aaaaaa a a a a aa  aa    aaaaa  
+a  aaa     a  aaa  aaa     a   a a   a a   a      a    aa  aa    aa aa aaa aaaaa a  aaa a a a a aa a  a aa a  aa aa  aaa     a   aa    aa a  a aaa   a
+ a     a  a aa   aa a  a  aa a   a aa       aaa   a   aa   a   a aa   a  aaa  a    a aa aaaaaaa aaa a  a a  a     a aaaa aa a    a a a a      a a a   
+ a  a a a  aaaa  a a aaaaa   a a aaaa aa a    aaaa   aaaa aaa   a aa  a aa  aaaa    a  a  aa  aaa   a aa aaaa  aa aa a a  aa  aa a aa   a aaa aa    aa
+aa aaaa      a aa     a aa  a   aaa aaa aa  aa a    a a aaaaa  a  aaa     a  a aa  aa   aa  aaa a a aaa     aaaa aaa  aa    aa  a aa a a a aaa  a    a
+  a   aa a a   a a  a aaa aaa aa    aa  a a aa  aa aaa     a a  aaaaaaa aa a aa   a a  a   a   aa   a  aaa a aa aa a      aa     aa  aa a aaaaaa    a 
+aaa aa      a a a a     a     aaaaaa     aa     a    a aaa aa aaaaaa  a aaa     a   aa aaaa    a   a  aaa    aaaa aa a aaa       a aa aaaa  aaa  aaa a
+    aaa   a  aaaa  aa  a   aa  aa aaaaa aaaaa a    a aa aa   a  aaaaaa  aa aa aa a     aaa aa  a   aa  aaa  a     a a  aaaaaa  aa a aaaaa   a   a   aa
+a aa a aa      a a  aa    aa  a  aaaaa    aaa  a  aa aa aa a aaaa  aaaa   aa   a  a a aaaa  a a a   a  a a aaaa aa  a a  a a a a     a aaaaaaaa aa aaa
+aa    a a   aaa    aa a a a a     aa   aa aa  aa a  aa a    aa     aaa aaa a aa   aaa aaa a aa aa   a   a a a a   a aaa aaa a  aaa  aaaaa  aaa  a a a 
+aaa  a    aa aaaa a aaaa   a aa a  a aa   a  a    a aaaaa  a aaaa a aa   a     a   aa a aa a  a aaaa aa aa aa aaa  aaa     aaaaaa aaa a a aaaa aa aa a
+aa  aa     a a aa aaaaa     a   a a a aa a a aaa   aa  a       aaa aa aaaa aaaa     a  a  a  a   aaa a aa aaaaaa  aaa    aa  aa aaa     a a a  aaa a a
+   a   a  a    aa a aaaa a      a a aa    a    aaa aaaa aaa    aa  a aaaaaaa  aaaaaaaaa a  a aaaaa aa   aa   a   aa a aa     aaaa a a    aa  aa a aaa 
+   a aa  aa a    a a  a  aaa a  a aaaaa aa aa aaa aa   a  aaa a  a  a a  aa     aa  a   aaaa  aaa aa aa aaaa  a      aaa  a a    aaa a    aa  a  aaaa 
+  aa a    aa aa a aaaaa aaaa a a aa   aa       a     aaaa  a  aaaaa a a  aaaa      a   a a   aaaa   aaaa  aa  aa  a  aa      a    aa  aa   aaaa a a   
+a a  aa   aaa        a aaa a aaaaaa a   aaaaaa     aa aaa a  a  aa  aa a  a a aaaa a    aa a  a a        a a a    a aa aaaaa aa    aaa  aaa  a a   a  
+ a     a aaaa aa aa a    aaa aaa  a   a a aaaa aaaaaa    aaa a    a a   aa  aaa  a a aaa a a a aaa aa a  aaa aa aaa aa aaaa a   aaa  aaa aa aaaaaa  a 
+ a a  aaa aaaa    aa a a  aa    a a  aaa  aaaaaaa   a aaa     a aaaaa     a  a   aa  a  aaaa   aaa a   aa    aa aaaaaaa aaaa aa aa a         aaaaa  a 
+      a aa   aa      aa  a a aa aaaaaaa a aaa aa aaa   a     aaa a aaaaaa   aaa aaaa  aaaa aaa a a  aaa    aa  aa a aaaa  a aa       a aa  aa a a a  a
+ a      a  a aaaaa aaaa a aaa    aa  a a  aaaaa aaaaa  a aaaaaaa aa a a  aaa   aa aa   a a a  aa  a a  a   a a  a a aaaa  aa   aaaa  aaa  a   a  a  a 
+ a  a  aaa    aaaaaaa a a  a aaaa  a   aa    aaaaa   aaaaaa    a a  a aaa aa  aa a      a   aaaaaaa a  aa aaaa    aa      aa a   aaaaa aa aaaa aa  a a
+ a a     aaaaa a a aa a    a    aa  a    a aa aa   a   a a    a  a      a a a  a aa aa a a   a   a   a a a   aaa      a aaa aa a a aa aaaaa    a a   a
+a a aa    a aaa    a  a aaaa aaaa aa  aaaa a aa a   aaa  aaaaa aa a       aaaa   aa    a  a  aa    a aa a a    a aaa a   aa  a a aa   aa  a aa aaaa aa
